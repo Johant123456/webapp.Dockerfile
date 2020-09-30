@@ -26,7 +26,7 @@ COPY nginx.conf /etc/nginx
 COPY --from=build /source/out/. . 
  
 RUN  ls
-EXPOSE 443
+EXPOSE 80
  
 CMD ["sh", "/app/startup.sh"]
 
