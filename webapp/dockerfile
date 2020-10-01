@@ -31,4 +31,4 @@ EXPOSE 80
 CMD ["sh", "/app/startup.sh"]
 
 
-# ENTRYPOINT dotnet webapp.dll
+ENTRYPOINT ["dotnet", "webapp.dll"]

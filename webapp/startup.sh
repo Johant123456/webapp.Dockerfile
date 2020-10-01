@@ -1,5 +1,5 @@
 #!/bin/bash
 service nginx start
 ls
-pwd
+# pwd
 dotnet webapp.dll
